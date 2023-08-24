@@ -1,0 +1,14 @@
+{
+  "name": "@ameotoko/foundation-to-top",
+  "version": "1.0.0",
+  "description": "Matt Varone's UItoTop as a Foundation plugin",
+  "main": "index.js",
+  "author": "ameotoko (https://github.com/ameotoko)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "foundation-sites": "^6.8.1"
+  },
+  "peerDependencies": {
+    "jquery": ">=3.6.0"
+  }
+}

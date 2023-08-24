@@ -1,0 +1,31 @@
+$body-background: #fefefe !default;
+
+@import 'foundation-sites/scss/util/util';
+
+@mixin scroll-top {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  background-color: get-color(primary);
+  color: $body-background;
+  padding: 0.5em;
+
+  &:hover {
+    background-color: $body-background;
+    color: get-color(primary);
+    cursor: pointer;
+  }
+
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+@mixin foundation-to-top {
+  #toTop {
+    @include scroll-top;
+  }
+}
